@@ -18,6 +18,7 @@
 
     <modules>
         <module>leetcode</module>
+        <module>javabase</module>
     </modules>
 
     <properties>
