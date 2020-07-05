@@ -20,7 +20,7 @@ public class JavabaseJedisConfiguration {
     @Resource
     private JavabaseJedisConfig javabaseJedisConfig;
 
-    @Bean
+    @Bean("javabaseJedisPool")
     public JedisPool getJedisPool() {
         JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
         jedisPoolConfig.setMaxTotal(javabaseJedisConfig.getMaxTotal());
