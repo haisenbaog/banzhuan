@@ -1,0 +1,10 @@
+javabase:
+  redis:
+    host: localhost
+    port: 3306
+    password:
+    db: 5
+    maxTotal: 10
+    maxIdle: 5
+    timeout: 100
+    defaultExpiration: 3600
